@@ -3,6 +3,6 @@ def nthLetter(w, n):
         return False
 
     else:
-        return w[n]
+        return w[n-1]
 
-print(nthLetter("fortnite", 9))
+print(nthLetter("qwertyuiop", 5))
